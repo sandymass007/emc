@@ -1,18 +1,16 @@
 {
   "name": "emc",
   "version": "1.0.0",
-  "description": "",
-  "main": "index.js",
+  "description": "Employee Management Console",
+  "main": "server.js",
   "scripts": {
+    "start": "node server.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "keywords": [],
-  "author": "",
-  "license": "ISC",
-  "type": "commonjs",
   "dependencies": {
-    "ejs": "^3.1.10",
-    "express": "^5.2.1",
-    "mongoose": "^9.0.1"
+    "ejs": "^3.1.9",
+    "express": "^4.18.2",
+    "mongoose": "^6.8.0",  <-- CONFIRM THIS LINE IS PRESENT
+    "dotenv": "^16.3.1"
   }
 }
